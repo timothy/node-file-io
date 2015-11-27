@@ -19,6 +19,7 @@ fs.readFile(test, 'utf8', function(err, data) {
 
    // console.log(data.chapters[0].verses[18]);
 
+    
     fs.writeFile('./1Chronicles.json', data, function(err) {
         if(err) {
             console.error("Could not write file: %s", err);
